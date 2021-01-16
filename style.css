@@ -1,0 +1,342 @@
+/*CSS CODE*/
+body{
+  max-width: 900px;
+  margin: auto !important;
+  text-decoration: none;
+}
+section{
+	margin: 20px 0;
+}
+a{
+	text-decoration: none;
+}
+
+/*menu section*/
+.menu{
+	width: 900px;
+	display: inline-block;
+	background-color: #414141;
+	text-align: right;
+
+}
+.logo{
+	float: left;
+}
+
+.menu .menu-ul .menu-list{
+	display: inline-block;
+	margin-right: 10px;
+}
+.menu .menu-ul .menu-list  .menu-item{
+	display: inline-block;
+	color: #eeb10b;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.menu .menu-ul .menu-list  .menu-item:hover{
+    background-color: #eeb10b;
+	color: #ffffff;
+	padding: 7px 5px;
+}
+
+.menu .menu-ul .menu-list.menu-active .menu-item{
+	background-color: #eeb10b;
+	color: #ffffff;
+	padding: 7px 5px;
+}
+/*End menu section*/
+@media screen and (max-width: 900px){
+.menu{
+	text-align: center;
+	width: auto;
+    padding: 10px 140px;
+}
+.logo{
+	text-align: center;
+	float: none;
+}
+}
+@media screen and (max-width: 800px){
+.menu{
+	text-align: center;
+	width: auto;
+    padding: 10px 85px;
+}
+.menu .menu-ul .menu-list{
+	margin-bottom: 10px;
+}
+}
+@media screen and (max-width: 600px){
+.menu{
+	text-align: center;
+	width: auto;
+    padding: 0px;
+}
+.menu .menu-ul .menu-list{
+	margin-bottom: 10px;
+}
+}
+
+/*Bio section*/
+.bio{
+	display: inline-block;
+	margin-top: 10px; 
+}
+.bio .b-img{
+	display: inline-block;
+	margin-right: 20px;
+}
+.bio .b-img .b-name{
+	background-color: #414141;
+	color: #ffffff;
+	padding: 7px 5px;
+	text-align: center;
+}
+
+.bio .b-info{
+	display: inline-block;
+	width: auto;
+}
+
+/*End Bio section*/
+
+/*Education section*/
+.heading{
+	display: block;
+
+}
+
+.heading .heading-info{
+	text-align: center;
+	background-color: #414141;
+	color: #ffffff;
+	padding: 7px 5px;
+	text-transform: uppercase;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+.table{
+	width: 100%;
+}
+/*End Education section*/
+
+
+
+/*Learn section*/
+.learn-list .learn-item .learn-link{
+	text-decoration: none;
+}
+.learn-list .learn-item .learn-link:hover{
+	color: blue;
+}
+
+/*End Learn section*/
+
+
+
+/*Page heading*/
+.heading-page{
+	display: inline-block;
+	width: 98%;
+	background-color: #eeb10b;
+	color: #ffffff;
+	padding: 10px;
+
+}
+.heading-page .hp-title{
+	display: inline-block;
+}
+.heading-page .hp-info{
+	display: inline-block;
+	float: right;
+	padding: 15px;
+}
+.heading-page .hp-info .hp-link{
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+}
+/*End Page heading*/
+
+/*about page*/
+.contact-info{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+.contact-info .ci-item{
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 15px; 
+}
+.contact-info .ci-item .fa{
+	margin-right: 5px;
+}
+.contact-info .ci-item a{
+	text-decoration: none;
+	margin-right: 5px;
+}
+/*End About page*/
+
+/*Contact page*/
+.con-info{
+	display: inline-block;
+}
+
+.con-info .con-img{
+	display: inline-block;
+}
+.con-info .con-list{
+	display: inline-block;
+	float: right;
+	transform: translateY(100px);
+	list-style-type: none;
+}
+.con-info .con-list .con-item{
+	margin-bottom: 10px;
+}
+.con-info .con-list .con-item .fa{
+	margin-right: 5px;
+}
+
+/*End Contact page*/
+
+/*Hobby page*/
+.hobby{
+	display: inline-block;
+	width: 900px;
+}
+
+.hobby .hobby-left{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.hobby .hobby-left .hl-paragraf{
+	margin-bottom: 50px;
+}
+.hobby .hobby-right{
+	display: inline-block;
+    float: right;
+    text-align: center;
+    width: 400px;
+}
+.hobby .hobby-right .hr-content{
+	display: block;
+	text-align: center;
+}
+/*End Hobby page*/
+
+
+/*Footer section*/
+.footer{
+	display: inline-block;
+	width: 100%;
+	background-color: #414141;
+	color: #ffffff;
+	padding: 10px;
+
+}
+
+.footer .footer-copy{
+	display: inline-block;
+}
+.footer .footer-date{
+	display: inline-block;
+	float: right;
+}
+/*End Footer section*/
+
+#left{
+	float: left;
+	width: 70%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*Sidebar section*/
+.sidebar{
+	float: right;
+	width: 30%;
+	height: auto;
+	border: 1px solid white;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sidebar-bottom {display: none;}
+
+@media screen and (max-width: 480px) {
+.sidebar {display: none;}
+.sidebar-bottom {
+display: inline-block;
+position: relative;
+width: 90%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+border: 1px solid white;
+background: white;
+}
+}
+
+.s-heading{
+	display: block;
+
+}
+.s-heading .sh-info{
+	text-align: center;
+	background-color: #eeb10b;
+	color: #ffffff;
+	padding: 7px 5px;
+	text-transform: uppercase;
+}
+
+.social-icon{
+	list-style-type: none;
+	padding: 0;
+}
+.si-item{
+margin-bottom: 10px;
+}
+.si-item .fa{
+	font-size: 20px;
+	margin-right: 10px;
+	padding: 8px 10px;
+    background-color: #eeb10b;
+}
+.si-item .fa.fa-facebook{
+	padding: 8px 13px !important;
+}
+
+/*End Sidebar section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

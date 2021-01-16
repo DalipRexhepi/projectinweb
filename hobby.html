@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name=”viewport” content=”initial-scale=1.0, width=device-width” />
+	<title>Hobby</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- Start menu section -->
+	<section> 
+		<nav>
+			<div class="menu">
+				<img class="logo" src="img/logo.png">
+				<!-- Start menu list -->
+				<ul class="menu-ul">
+					<!-- Start menu item  -->
+					<li class="menu-list "><a class="menu-item" href="index.html">Home</a></li>
+					<li class="menu-list"><a class="menu-item" href="aboutus.html">About us</a></li>
+					<li class="menu-list"><a class="menu-item" href="contact.html">Contact</a></li>
+					<li class="menu-list"><a class="menu-item" href="assignments.html">Assignments</a></li>	
+					<li class="menu-list menu-active"><a class="menu-item" href="hobby.html">Hobby</a></li>	
+					<!-- End menu item -->
+				</ul>
+				<!-- End menu list -->
+			</div>
+		</nav>
+	</section>
+	<!-- End menu section -->
+
+	<div class="heading-page">
+		<h1 class="hp-title">Hobby page</h1>
+		<p class="hp-info"><a class="hp-link" href="index.html">Home</a> > Hobby page</p>
+	</div>
+
+	<section>
+		<div class="hobby">
+			<div class="hobby-left">
+				<h4>My hobby is Futball</h4>
+				<p class="hl-paragraf">I like soccer, when I was child I always played soccer. My football club is Barcelona because that's plays the best player of all the time Messi. Barcelona is a club spainch club, fc Barcelona created in 1899. Barcelona has won a record 74 trophies: 26 La Liga and  5 UEFA Champions League titles etc. </p>
+			</div>
+			<div class="hobby-right">
+				<img src="img/barcelona.jpg" width="400" height="200">
+			</div>
+			<div class="hobby-left">
+				<img src="img/messi.jpg" width="400" height="400">
+				
+			</div>
+			<div class="hobby-right">
+				<div class="hr-content"></div>
+				<h4>Lionel Messi is my favorit Soccer Player</h4>
+				<p>He born 24 June 1987, is an Argentine professional footballer who plays as a forward and captains both the Spanish club Barcelona and the Argentina national team.</p>
+				<table class="table">
+			<tr>
+				<th>Best Player in the World</th>
+			</tr>
+			<tr>
+				<td>2009</td>	
+			</tr>
+			<tr>
+				<td>2010</td>	
+			</tr>
+			<tr>
+				<td>2011</td>	
+			</tr>	
+			<tr>
+				<td>2012</td>	
+			</tr>
+			<tr>
+				<td>2015</td>	
+			</tr>
+			<tr>
+				<td>2019</td>	
+			</tr>
+		</table>
+		<p>He plays for:</p>
+		<ol>
+			<li><a href="https://www.fcbarcelona.com/en/">FC Barcelona club</a></li>
+			<li><a href="https://www.afa.com.ar/es/">Argentine national team</a></li>
+		</ol>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Start date section -->
+	<footer>
+		<div class="footer">
+			<p class="footer-copy">&copy; Copyright - All Rights Reserved by: Dalip Rexhepi</p>
+			<p class="footer-date">Current date: <span id="date"></span></p>
+		</div>
+		
+	</footer>
+	<!-- End date section -->
+
+	<!-- Start current getdate  with javascript -->
+	<script>
+
+		n =  new Date();
+		year = n.getFullYear();
+		month = n.getMonth() + 1;
+		day = n.getDate();
+
+		document.getElementById("date").innerHTML = day + "/" + month + "/" + year;
+	</script>
+	<!-- End current getdate with javascript -->
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name=”viewport” content=”initial-scale=1.0, width=device-width” />
+	<title>About us </title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+		<!-- Start menu section -->
+	<section> 
+		<nav>
+			<div class="menu">
+				<img class="logo" src="img/logo.png">
+				<!-- Start menu list -->
+				<ul class="menu-ul">
+					<!-- Start menu item  -->
+					<li class="menu-list"><a class="menu-item" href="index.html">Home</a></li>
+					<li class="menu-list menu-active"><a class="menu-item" href="aboutus.html">About us</a></li>
+					<li class="menu-list"><a class="menu-item" href="contact.html">Contact</a></li>
+					<li class="menu-list"><a class="menu-item" href="assignments.html">Assignments</a></li>	
+					<li class="menu-list"><a class="menu-item" href="hobby.html">Hobby</a></li>	
+					
+					<!-- End menu item -->
+				</ul>
+				<!-- End menu list -->
+			</div>
+		</nav>
+	</section>
+	<!-- End menu section -->
+
+	<div class="heading-page">
+		<h1 class="hp-title">About us</h1>
+		<p class="hp-info"><a class="hp-link" href="index.html">Home</a> > About us</p>
+	</div>
+	
+	<section>
+		<div class="heading">
+			<h2 class="heading-info">Contact info</h2>
+		</div>
+		<ul class="contact-info">
+			<li class="ci-item"><i class="fa fa-phone" aria-hidden="true"></i>Phone: +43 1234 5678</li>
+			<li class="ci-item"><i class="fa fa-envelope" aria-hidden="true"></i>E-Mail: dalip_rexhepi@hotmail.com</li>
+			<li class="ci-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Address: Vienna, Austria</li>	
+		</ul>
+	</section>
+	
+	<section>
+		<div class="heading">
+			<h2 class="heading-info">Knowledge of Microsoft Office</h2>
+		</div>
+		<table class="table">
+			<tr>
+				<th>Application</th>	
+				<th>Level</th>
+			</tr>
+			<tr>
+				<td>Word</td>
+				<td>Better</td>
+			</tr>
+			<tr>
+				<td>Excel</td>
+				<td>Better</td>
+			</tr>
+			<tr>
+				<td>PowerPoint</td>
+				<td>Better</td>
+			</tr>	
+		</table>
+	</section>
+
+	<!-- Start link pages where I learn -->
+	<section>
+		<div class="heading">
+			<h2 class="heading-info">My social network</h2>
+		</div>
+		<ul class="contact-info">
+			<li class="ci-item"><i class="fa fa-facebook" aria-hidden="true"></i><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+			<li class="ci-item"><i class="fa fa-instagram" aria-hidden="true"></i><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+			<li class="ci-item"><i class="fa fa-twitter" aria-hidden="true"></i><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+			<li class="ci-item"><i class="fa fa-youtube" aria-hidden="true"></i><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+		</ul>
+	</section>
+	<!-- End link pages where I learn -->
+
+	<section>
+		<p>Vienna is Capital city of Austria and I live here</p>
+		<img src="img/vienna.jpg" width="100%">
+	</section>
+
+
+	
+	<!-- Start date section -->
+	<footer>
+		<div class="footer">
+			<p class="footer-copy">&copy; Copyright - All Rights Reserved by: Dalip Rexhepi</p>
+			<p class="footer-date">Current date: <span id="date"></span></p>
+		</div>
+		
+	</footer>
+	<!-- End date section -->
+
+	<!-- Start current getdate  with javascript -->
+	<script>
+
+		n =  new Date();
+		year = n.getFullYear();
+		month = n.getMonth() + 1;
+		day = n.getDate();
+
+		document.getElementById("date").innerHTML = day + "/" + month + "/" + year;
+	</script>
+	<!-- End current getdate with javascript -->
+</body>
+</html>
