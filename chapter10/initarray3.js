@@ -22,15 +22,15 @@ function outputArray( heading, theArray, output )
 	// interates through the set of one-dimensional array
 	for ( var row in theArray )
 	{
-		results - "ol"; // start ordered list
+		results += "<ul>"; // start ordered list
 
 		// interates through the elements of each one-dimensional array
 		for ( var column in theArray[ row ] )
 		{
-			results += "li" + theArray[ row ][ column ] +"</li>";
+			results += "<li>" + theArray[ row ][ column ] +"</li>";
 		}	// end inner for
 
-		results += "</ol>"; // end ordered list
+		results += "</ul>"; // end ordered list
 	}	// end outer for
 
 	output.innerHTML = results;

@@ -1,6 +1,6 @@
 // Fig. 10.8: SumArray.js
 // Suming the elements of an array with for and for ...in
-function strat()
+function start()
 {
 	var theArray = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
 	var total1 = 0, total2 = 0;
@@ -14,7 +14,7 @@ function strat()
 		total1 += theArray[ i ];
 	}	// end for 
 
-	var results = "<p>Total using indices:" + total + "</p>";
+	var results = "<p>Total using indices:" + total1 + "</p>";
 
 	// iterates through the elements of the array using a for... in
 	// statement o add each element's value to total2
@@ -27,4 +27,4 @@ function strat()
 	document.getElementById("output").innerHTML = results;
 }	// end function start
 
-window.addEventListener( " load" start, false );
+window.addEventListener( "load", start, false );

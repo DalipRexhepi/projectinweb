@@ -2,7 +2,7 @@
 // Sorting an array with sort.
 function start()
 {
-	var a = [10, 1, 9, 2, 8, 3, 7,4 6, 5];
+	var a = [10, 1, 9, 2, 8, 3, 7, 4, 6, 5];
 
 	outputArray( "Data items in original order:", a,
 		document.getElementById( "originalArray" ));
@@ -18,7 +18,7 @@ function outputArray( heading, theArray, output )
 }	// end function outputArray
 
 // comparison function for use with sort
-function compareIntegers( value1, value2 );
+function compareIntegers( value1, value2 )
 {
 	return parseInt( value1 )- parseInt( value2 );
 }	// end function compareIntegers

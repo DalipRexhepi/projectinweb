@@ -19,8 +19,8 @@ function start()
 		n2[ i ] = i;
 	} // end for 
 
-	outputArray( "Array n1:", n1, document.getElementbyId("output1" ) );
-	outputArray( "Array n2:", n2, document.getElementbyId("output2" ) );
+	outputArray( "Array n1:", n1, document.getElementById("output1" ) );
+	outputArray( "Array n2:", n2, document.getElementById("output2" ) );
 }	// end function start
 
 	// output the heading followed by a two-column table
